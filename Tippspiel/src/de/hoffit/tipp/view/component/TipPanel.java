@@ -84,6 +84,7 @@ public class TipPanel extends JPanel {
 		this.gamesTbl.setDefaultRenderer(Object.class,
 				new MultiLineCellRenderer());
 		this.gamesTbl.setRowHeight(200);
+		this.gamesTbl.getTableHeader().setResizingAllowed(false);
 
 		// hide>>
 		Enumeration<TableColumn> colEnum = this.gamesTbl.getColumnModel()
@@ -91,7 +92,6 @@ public class TipPanel extends JPanel {
 		while (colEnum.hasMoreElements()) {
 			TableColumn tblCol = (TableColumn) colEnum.nextElement();
 			tblCol.setMinWidth(80);
-			tblCol.setResizable(false);
 
 		}
 		// hide<<
@@ -110,7 +110,8 @@ public class TipPanel extends JPanel {
 		this.playerTbl.setDefaultRenderer(Object.class,
 				new MultiLineCellRenderer());
 		this.playerTbl.getTableHeader().setReorderingAllowed(false);
-
+		this.playerTbl.getTableHeader().setResizingAllowed(false);
+		
 		// hide>>
 		colEnum = this.playerTbl.getColumnModel().getColumns();
 		while (colEnum.hasMoreElements()) {
@@ -133,7 +134,8 @@ public class TipPanel extends JPanel {
 		this.tipTbl.getTableHeader().setReorderingAllowed(false);
 		this.tipTbl.setDefaultRenderer(Object.class,
 				new MultiLineCellRenderer());
-
+		this.tipTbl.getTableHeader().setResizingAllowed(false);
+		
 		// hide>>
 		colEnum = this.tipTbl.getColumnModel().getColumns();
 		while (colEnum.hasMoreElements()) {
