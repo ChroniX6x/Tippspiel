@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<commands>
+	<addComponent
+		id="xdev.ui.UIUtils$XdevFileFilter_1337094920177"
+		name="XdevFileFilter"
+		description="Custom component: xdev.ui.UIUtils$XdevFileFilter"
+		visible="true"
+		class="xdev.ui.UIUtils$XdevFileFilter"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevAction_1337094920177"
+		name="XdevAction"
+		description="Custom component: xdev.ui.XdevAction"
+		visible="true"
+		class="xdev.ui.XdevAction"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevApplicationContainer_1337094920177"
+		name="XdevApplicationContainer"
+		description="Custom component: xdev.ui.XdevApplicationContainer"
+		visible="true"
+		class="xdev.ui.XdevApplicationContainer"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevButton_1337094920177"
+		name="XdevButton"
+		description="Custom component: xdev.ui.XdevButton"
+		visible="true"
+		class="xdev.ui.XdevButton"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevCheckBox_1337094920177"
+		name="XdevCheckBox"
+		description="Custom component: xdev.ui.XdevCheckBox"
+		visible="true"
+		class="xdev.ui.XdevCheckBox"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevCheckBoxMenuItem_1337094920177"
+		name="XdevCheckBoxMenuItem"
+		description="Custom component: xdev.ui.XdevCheckBoxMenuItem"
+		visible="true"
+		class="xdev.ui.XdevCheckBoxMenuItem"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevComboBox_1337094920177"
+		name="XdevComboBox"
+		description="Custom component: xdev.ui.XdevComboBox"
+		visible="true"
+		class="xdev.ui.XdevComboBox"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevComboBox$XdevComboBoxListCellRenderer_1337094920177"
+		name="XdevComboBoxListCellRenderer"
+		description="Custom component: xdev.ui.XdevComboBox$XdevComboBoxListCellRenderer"
+		visible="true"
+		class="xdev.ui.XdevComboBox$XdevComboBoxListCellRenderer"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevComponent_1337094920177"
+		name="XdevComponent"
+		description="Custom component: xdev.ui.XdevComponent"
+		visible="true"
+		class="xdev.ui.XdevComponent"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevContainer_1337094920177"
+		name="XdevContainer"
+		description="Custom component: xdev.ui.XdevContainer"
+		visible="true"
+		class="xdev.ui.XdevContainer"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevDateDropDownButton_1337094920177"
+		name="XdevDateDropDownButton"
+		description="Custom component: xdev.ui.XdevDateDropDownButton"
+		visible="true"
+		class="xdev.ui.XdevDateDropDownButton"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevDateTextField_1337094920177"
+		name="XdevDateTextField"
+		description="Custom component: xdev.ui.XdevDateTextField"
+		visible="true"
+		class="xdev.ui.XdevDateTextField"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevDesignLayoutTable_1337094920177"
+		name="XdevDesignLayoutTable"
+		description="Custom component: xdev.ui.XdevDesignLayoutTable"
+		visible="true"
+		class="xdev.ui.XdevDesignLayoutTable"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevDesktopPane_1337094920177"
+		name="XdevDesktopPane"
+		description="Custom component: xdev.ui.XdevDesktopPane"
+		visible="true"
+		class="xdev.ui.XdevDesktopPane"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevDialog_1337094920177"
+		name="XdevDialog"
+		description="Custom component: xdev.ui.XdevDialog"
+		visible="true"
+		class="xdev.ui.XdevDialog"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevFileChooser_1337094920177"
+		name="XdevFileChooser"
+		description="Custom component: xdev.ui.XdevFileChooser"
+		visible="true"
+		class="xdev.ui.XdevFileChooser"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevFileChooserFactory_1337094920177"
+		name="XdevFileChooserFactory"
+		description="Custom component: xdev.ui.XdevFileChooserFactory"
+		visible="true"
+		class="xdev.ui.XdevFileChooserFactory"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevFileFilter_1337094920177"
+		name="XdevFileFilter"
+		description="Custom component: xdev.ui.XdevFileFilter"
+		visible="true"
+		class="xdev.ui.XdevFileFilter"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevFocusCycleComponent_1337094920177"
+		name="XdevFocusCycleComponent"
+		description="Custom component: xdev.ui.XdevFocusCycleComponent"
+		visible="true"
+		class="xdev.ui.XdevFocusCycleComponent"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevFocusCycleController_1337094920177"
+		name="XdevFocusCycleController"
+		description="Custom component: xdev.ui.XdevFocusCycleController"
+		visible="true"
+		class="xdev.ui.XdevFocusCycleController"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevFocusCycleRoot_1337094920177"
+		name="XdevFocusCycleRoot"
+		description="Custom component: xdev.ui.XdevFocusCycleRoot"
+		visible="true"
+		class="xdev.ui.XdevFocusCycleRoot"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevFocusTraversalPolicy_1337094920177"
+		name="XdevFocusTraversalPolicy"
+		description="Custom component: xdev.ui.XdevFocusTraversalPolicy"
+		visible="true"
+		class="xdev.ui.XdevFocusTraversalPolicy"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevFormattedTextField_1337094920178"
+		name="XdevFormattedTextField"
+		description="Custom component: xdev.ui.XdevFormattedTextField"
+		visible="true"
+		class="xdev.ui.XdevFormattedTextField"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevFormular_1337094920178"
+		name="XdevFormular"
+		description="Custom component: xdev.ui.XdevFormular"
+		visible="true"
+		class="xdev.ui.XdevFormular"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevFrame_1337094920178"
+		name="XdevFrame"
+		description="Custom component: xdev.ui.XdevFrame"
+		visible="true"
+		class="xdev.ui.XdevFrame"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevFullScreen_1337094920178"
+		name="XdevFullScreen"
+		description="Custom component: xdev.ui.XdevFullScreen"
+		visible="true"
+		class="xdev.ui.XdevFullScreen"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevGridBagLayoutConstraints_1337094920178"
+		name="XdevGridBagLayoutConstraints"
+		description="Custom component: xdev.ui.XdevGridBagLayoutConstraints"
+		visible="true"
+		class="xdev.ui.XdevGridBagLayoutConstraints"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevImage_1337094920178"
+		name="XdevImage"
+		description="Custom component: xdev.ui.XdevImage"
+		visible="true"
+		class="xdev.ui.XdevImage"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevInternalFrame_1337094920178"
+		name="XdevInternalFrame"
+		description="Custom component: xdev.ui.XdevInternalFrame"
+		visible="true"
+		class="xdev.ui.XdevInternalFrame"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevLabel_1337094920178"
+		name="XdevLabel"
+		description="Custom component: xdev.ui.XdevLabel"
+		visible="true"
+		class="xdev.ui.XdevLabel"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevLayoutCell_1337094920178"
+		name="XdevLayoutCell"
+		description="Custom component: xdev.ui.XdevLayoutCell"
+		visible="true"
+		class="xdev.ui.XdevLayoutCell"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevListBox_1337094920178"
+		name="XdevListBox"
+		description="Custom component: xdev.ui.XdevListBox"
+		visible="true"
+		class="xdev.ui.XdevListBox"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevListBox$XdevCheckBoxListCellRenderer_1337094920178"
+		name="XdevCheckBoxListCellRenderer"
+		description="Custom component: xdev.ui.XdevListBox$XdevCheckBoxListCellRenderer"
+		visible="true"
+		class="xdev.ui.XdevListBox$XdevCheckBoxListCellRenderer"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevListBox$XdevListCellRenderer_1337094920178"
+		name="XdevListCellRenderer"
+		description="Custom component: xdev.ui.XdevListBox$XdevListCellRenderer"
+		visible="true"
+		class="xdev.ui.XdevListBox$XdevListCellRenderer"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevListBox$XdevListSelectionModel_1337094920178"
+		name="XdevListSelectionModel"
+		description="Custom component: xdev.ui.XdevListBox$XdevListSelectionModel"
+		visible="true"
+		class="xdev.ui.XdevListBox$XdevListSelectionModel"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevMainFrame_1337094920178"
+		name="XdevMainFrame"
+		description="Custom component: xdev.ui.XdevMainFrame"
+		visible="true"
+		class="xdev.ui.XdevMainFrame"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevMenu_1337094920178"
+		name="XdevMenu"
+		description="Custom component: xdev.ui.XdevMenu"
+		visible="true"
+		class="xdev.ui.XdevMenu"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevMenuBar_1337094920178"
+		name="XdevMenuBar"
+		description="Custom component: xdev.ui.XdevMenuBar"
+		visible="true"
+		class="xdev.ui.XdevMenuBar"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevMenuItem_1337094920178"
+		name="XdevMenuItem"
+		description="Custom component: xdev.ui.XdevMenuItem"
+		visible="true"
+		class="xdev.ui.XdevMenuItem"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevMenuSeparator_1337094920178"
+		name="XdevMenuSeparator"
+		description="Custom component: xdev.ui.XdevMenuSeparator"
+		visible="true"
+		class="xdev.ui.XdevMenuSeparator"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevNmListBox_1337094920178"
+		name="XdevNmListBox"
+		description="Custom component: xdev.ui.XdevNmListBox"
+		visible="true"
+		class="xdev.ui.XdevNmListBox"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevPage_1337094920178"
+		name="XdevPage"
+		description="Custom component: xdev.ui.XdevPage"
+		visible="true"
+		class="xdev.ui.XdevPage"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevPageContainer_1337094920178"
+		name="XdevPageContainer"
+		description="Custom component: xdev.ui.XdevPageContainer"
+		visible="true"
+		class="xdev.ui.XdevPageContainer"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevPasswordField_1337094920178"
+		name="XdevPasswordField"
+		description="Custom component: xdev.ui.XdevPasswordField"
+		visible="true"
+		class="xdev.ui.XdevPasswordField"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevPicture_1337094920178"
+		name="XdevPicture"
+		description="Custom component: xdev.ui.XdevPicture"
+		visible="true"
+		class="xdev.ui.XdevPicture"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevProgressBar_1337094920178"
+		name="XdevProgressBar"
+		description="Custom component: xdev.ui.XdevProgressBar"
+		visible="true"
+		class="xdev.ui.XdevProgressBar"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevRadioButton_1337094920178"
+		name="XdevRadioButton"
+		description="Custom component: xdev.ui.XdevRadioButton"
+		visible="true"
+		class="xdev.ui.XdevRadioButton"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevRadioButtonMenuItem_1337094920178"
+		name="XdevRadioButtonMenuItem"
+		description="Custom component: xdev.ui.XdevRadioButtonMenuItem"
+		visible="true"
+		class="xdev.ui.XdevRadioButtonMenuItem"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevRootPaneContainer_1337094920178"
+		name="XdevRootPaneContainer"
+		description="Custom component: xdev.ui.XdevRootPaneContainer"
+		visible="true"
+		class="xdev.ui.XdevRootPaneContainer"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevScreen_1337094920178"
+		name="XdevScreen"
+		description="Custom component: xdev.ui.XdevScreen"
+		visible="true"
+		class="xdev.ui.XdevScreen"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevScrollBar_1337094920178"
+		name="XdevScrollBar"
+		description="Custom component: xdev.ui.XdevScrollBar"
+		visible="true"
+		class="xdev.ui.XdevScrollBar"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevScrollBarListener_1337094920178"
+		name="XdevScrollBarListener"
+		description="Custom component: xdev.ui.XdevScrollBarListener"
+		visible="true"
+		class="xdev.ui.XdevScrollBarListener"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevScrollPane_1337094920178"
+		name="XdevScrollPane"
+		description="Custom component: xdev.ui.XdevScrollPane"
+		visible="true"
+		class="xdev.ui.XdevScrollPane"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevSlider_1337094920178"
+		name="XdevSlider"
+		description="Custom component: xdev.ui.XdevSlider"
+		visible="true"
+		class="xdev.ui.XdevSlider"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevSpinner_1337094920178"
+		name="XdevSpinner"
+		description="Custom component: xdev.ui.XdevSpinner"
+		visible="true"
+		class="xdev.ui.XdevSpinner"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevSplitPane_1337094920178"
+		name="XdevSplitPane"
+		description="Custom component: xdev.ui.XdevSplitPane"
+		visible="true"
+		class="xdev.ui.XdevSplitPane"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevStyle_1337094920178"
+		name="XdevStyle"
+		description="Custom component: xdev.ui.XdevStyle"
+		visible="true"
+		class="xdev.ui.XdevStyle"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevTab_1337094920178"
+		name="XdevTab"
+		description="Custom component: xdev.ui.XdevTab"
+		visible="true"
+		class="xdev.ui.XdevTab"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevTabbedPane_1337094920178"
+		name="XdevTabbedPane"
+		description="Custom component: xdev.ui.XdevTabbedPane"
+		visible="true"
+		class="xdev.ui.XdevTabbedPane"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevTabbedPaneSettings_1337094920178"
+		name="XdevTabbedPaneSettings"
+		description="Custom component: xdev.ui.XdevTabbedPaneSettings"
+		visible="true"
+		class="xdev.ui.XdevTabbedPaneSettings"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevTable_1337094920178"
+		name="XdevTable"
+		description="Custom component: xdev.ui.XdevTable"
+		visible="true"
+		class="xdev.ui.XdevTable"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevTextArea_1337094920178"
+		name="XdevTextArea"
+		description="Custom component: xdev.ui.XdevTextArea"
+		visible="true"
+		class="xdev.ui.XdevTextArea"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevTextComponent_1337094920178"
+		name="XdevTextComponent"
+		description="Custom component: xdev.ui.XdevTextComponent"
+		visible="true"
+		class="xdev.ui.XdevTextComponent"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevTextField_1337094920178"
+		name="XdevTextField"
+		description="Custom component: xdev.ui.XdevTextField"
+		visible="true"
+		class="xdev.ui.XdevTextField"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevTextPane_1337094920178"
+		name="XdevTextPane"
+		description="Custom component: xdev.ui.XdevTextPane"
+		visible="true"
+		class="xdev.ui.XdevTextPane"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevToggleButton_1337094920178"
+		name="XdevToggleButton"
+		description="Custom component: xdev.ui.XdevToggleButton"
+		visible="true"
+		class="xdev.ui.XdevToggleButton"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevToolBar_1337094920178"
+		name="XdevToolBar"
+		description="Custom component: xdev.ui.XdevToolBar"
+		visible="true"
+		class="xdev.ui.XdevToolBar"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevToolBar$XdevToolBarLayout_1337094920178"
+		name="XdevToolBarLayout"
+		description="Custom component: xdev.ui.XdevToolBar$XdevToolBarLayout"
+		visible="true"
+		class="xdev.ui.XdevToolBar$XdevToolBarLayout"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevToolBar$XdevToolBarLayout$XdevToolbarBoxLayout_1337094920178"
+		name="XdevToolbarBoxLayout"
+		description="Custom component: xdev.ui.XdevToolBar$XdevToolBarLayout$XdevToolbarBoxLayout"
+		visible="true"
+		class="xdev.ui.XdevToolBar$XdevToolBarLayout$XdevToolbarBoxLayout"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevToolBarSeparator_1337094920178"
+		name="XdevToolBarSeparator"
+		description="Custom component: xdev.ui.XdevToolBarSeparator"
+		visible="true"
+		class="xdev.ui.XdevToolBarSeparator"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevTree_1337094920178"
+		name="XdevTree"
+		description="Custom component: xdev.ui.XdevTree"
+		visible="true"
+		class="xdev.ui.XdevTree"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevTree$XdevTreeUI_1337094920178"
+		name="XdevTreeUI"
+		description="Custom component: xdev.ui.XdevTree$XdevTreeUI"
+		visible="true"
+		class="xdev.ui.XdevTree$XdevTreeUI"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevWindow_1337094920178"
+		name="XdevWindow"
+		description="Custom component: xdev.ui.XdevWindow"
+		visible="true"
+		class="xdev.ui.XdevWindow"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XdevWindowContainer_1337094920178"
+		name="XdevWindowContainer"
+		description="Custom component: xdev.ui.XdevWindowContainer"
+		visible="true"
+		class="xdev.ui.XdevWindowContainer"
+		category="someUniqueId"/>
+	<addComponent
+		id="xdev.ui.XScrollPane_1337094920178"
+		name="XScrollPane"
+		description="Custom component: xdev.ui.XScrollPane"
+		visible="true"
+		class="xdev.ui.XScrollPane"
+		category="someUniqueId"/>
+	<removeEntry
+		id="someUniqueId javax.swing.JButton"/>
+	<removeEntry
+		id="someUniqueId javax.swing.JRadioButton"/>
+</commands>
