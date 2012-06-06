@@ -25,6 +25,8 @@ import javax.swing.border.BevelBorder;
 
 public class TipPanel extends JPanel {
 
+	public static final String DAY_CHOICE = "dayChoice";
+
 	private static final long serialVersionUID = 8488504806410446897L;
 
 	private JPanel daysPnl;
@@ -150,7 +152,7 @@ public class TipPanel extends JPanel {
 
 	public void setActionListener(ActionListener listener) {
 		this.cbDayChoice.addActionListener(listener);
-		this.cbDayChoice.setActionCommand("dayChoice");
+		this.cbDayChoice.setActionCommand(DAY_CHOICE);
 
 		this.tglbtnAllPoints.addActionListener(listener);
 		this.tglbtnAllPoints.setActionCommand("allPoints");

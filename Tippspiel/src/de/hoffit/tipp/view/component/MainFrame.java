@@ -12,8 +12,11 @@ import javax.swing.JScrollPane;
 import javax.swing.JTabbedPane;
 import javax.swing.border.EmptyBorder;
 import java.awt.BorderLayout;
+import java.awt.event.ActionListener;
 
 public class MainFrame extends JFrame {
+
+	public static final String SEASON_PREFERENCES = "seasonPreferences";
 
 	private static final long serialVersionUID = -1826574838238810551L;
 
@@ -28,6 +31,8 @@ public class MainFrame extends JFrame {
 	private JMenuItem mntmSaveAs;
 	private JMenuItem mntmClose;
 	private JMenu mnEdit;
+	private JMenu mnSeason;
+	private JMenuItem mntmPreferences;
 
 	// /**
 	// * Launch the application.
@@ -82,6 +87,14 @@ public class MainFrame extends JFrame {
 
 		this.mnEdit = new JMenu("Edit");
 		this.menuBar.add(this.mnEdit);
+		{
+			this.mnSeason = new JMenu("Season");
+			this.menuBar.add(this.mnSeason);
+			{
+				this.mntmPreferences = new JMenuItem("Preferences");
+				this.mnSeason.add(this.mntmPreferences);
+			}
+		}
 
 		this.contentPane = new JPanel();
 		this.contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
@@ -97,5 +110,10 @@ public class MainFrame extends JFrame {
 		JScrollPane scrollPane = new JScrollPane(panel);
 
 		this.viewTabbedPane.add(title, scrollPane);
+	}
+
+	public void setActionListener(ActionListener a) {
+		this.mntmPreferences.addActionListener(a);
+		this.mntmPreferences.setActionCommand(SEASON_PREFERENCES);
 	}
 }

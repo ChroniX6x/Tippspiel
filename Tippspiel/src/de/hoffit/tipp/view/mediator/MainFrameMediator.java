@@ -1,4 +1,11 @@
 package de.hoffit.tipp.view.mediator;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.JComboBox;
+import javax.swing.JToggleButton;
+import javax.swing.JToggleButton.ToggleButtonModel;
+
 import org.puremvc.java.interfaces.IMediator;
 import org.puremvc.java.interfaces.INotification;
 import org.puremvc.java.interfaces.INotifier;
@@ -40,6 +47,27 @@ public class MainFrameMediator extends Notifier implements IMediator, INotifier 
 			// TODO 2: logging
 		}
 		this.mainFrame = mainFrame;
+		addListener();
+	}
+	
+	private void addListener() {
+		this.mainFrame.setActionListener(new ActionListener() {
+			@Override
+			public void actionPerformed(ActionEvent e) {
+				handleEvent(e);
+			}
+		});
+	}
+	
+	private void handleEvent(ActionEvent e) {
+		String command = e.getActionCommand();
+
+		if (command.equals(MainFrame.SEASON_PREFERENCES)) {
+			JComboBox source = (JComboBox) e.getSource();
+			sendNotification(AppFacade.VIEW_DAY_CHANGED,
+					source.getSelectedIndex());
+			return;
+		}
 	}
 
 	@Override

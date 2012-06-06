@@ -77,7 +77,7 @@ public class TipPanelMediator extends Notifier implements IMediator, INotifier {
 	private void handleEvent(ActionEvent e) {
 		String command = e.getActionCommand();
 
-		if (command.equals("dayChoice")) {
+		if (command.equals(TipPanel.DAY_CHOICE)) {
 			JComboBox source = (JComboBox) e.getSource();
 			sendNotification(AppFacade.VIEW_DAY_CHANGED,
 					source.getSelectedIndex());
