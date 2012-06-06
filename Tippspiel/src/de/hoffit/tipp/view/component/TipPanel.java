@@ -24,7 +24,7 @@ import javax.swing.UIManager;
 import javax.swing.border.BevelBorder;
 
 public class TipPanel extends JPanel {
-
+//Test
 	private static final long serialVersionUID = 8488504806410446897L;
 
 	private JPanel daysPnl;
