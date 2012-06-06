@@ -26,7 +26,6 @@ import javax.swing.border.BevelBorder;
 public class TipPanel extends JPanel {
 
 	public static final String DAY_CHOICE = "dayChoice";
-	// Testdfghjkwrfwefwefwef
 	
 	private static final long serialVersionUID = 8488504806410446897L;
 
