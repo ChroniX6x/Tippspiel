@@ -27,6 +27,7 @@ public class TipPanel extends JPanel {
 
 	public static final String DAY_CHOICE = "dayChoice";
 
+	// Test
 	private static final long serialVersionUID = 8488504806410446897L;
 
 	private JPanel daysPnl;
@@ -86,6 +87,7 @@ public class TipPanel extends JPanel {
 		this.gamesTbl.setDefaultRenderer(Object.class,
 				new MultiLineCellRenderer());
 		this.gamesTbl.setRowHeight(200);
+		this.gamesTbl.getTableHeader().setResizingAllowed(false);
 
 		// hide>>
 		Enumeration<TableColumn> colEnum = this.gamesTbl.getColumnModel()
@@ -93,7 +95,6 @@ public class TipPanel extends JPanel {
 		while (colEnum.hasMoreElements()) {
 			TableColumn tblCol = (TableColumn) colEnum.nextElement();
 			tblCol.setMinWidth(80);
-			tblCol.setResizable(false);
 
 		}
 		// hide<<
@@ -112,6 +113,7 @@ public class TipPanel extends JPanel {
 		this.playerTbl.setDefaultRenderer(Object.class,
 				new MultiLineCellRenderer());
 		this.playerTbl.getTableHeader().setReorderingAllowed(false);
+		this.playerTbl.getTableHeader().setResizingAllowed(false);
 
 		// hide>>
 		colEnum = this.playerTbl.getColumnModel().getColumns();
@@ -135,6 +137,7 @@ public class TipPanel extends JPanel {
 		this.tipTbl.getTableHeader().setReorderingAllowed(false);
 		this.tipTbl.setDefaultRenderer(Object.class,
 				new MultiLineCellRenderer());
+		this.tipTbl.getTableHeader().setResizingAllowed(false);
 
 		// hide>>
 		colEnum = this.tipTbl.getColumnModel().getColumns();
