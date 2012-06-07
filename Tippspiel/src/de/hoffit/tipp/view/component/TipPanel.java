@@ -20,9 +20,9 @@ import de.hoffit.tipp.view.config.MultiLineCellRenderer;
 public class TipPanel extends JPanel {
 
 	public static final String DAY_CHOICE = "dayChoice";
-	//dfghjkjhgfdfghj
+
 	private static final long serialVersionUID = 8488504806410446897L;
-	///dfghj
+
 	private JPanel daysPnl;
 	private JPanel playerPnl;
 	private JPanel gamesPnl;
