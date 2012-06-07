@@ -13,6 +13,8 @@ public class AppFacade extends Facade {
 
 	public static final String VIEW_DAY_CHANGED = "DAY_CHANGED";
 	public static final String VIEW_TOGGLE_ALL_POINTS = "TOGGLE_ALL_POINTS";
+	
+	public static final String VIEW_OPEN_DIALOG = "OPEN_DIALOG";
 
 	private static AppFacade instance = null;
 

@@ -1,4 +1,5 @@
 package de.hoffit.tipp.view.mediator;
+
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -13,6 +14,7 @@ import org.puremvc.java.patterns.observer.Notifier;
 
 import de.hoffit.tipp.AppFacade;
 import de.hoffit.tipp.view.component.MainFrame;
+import de.hoffit.tipp.view.component.PlayerEditDialog;
 
 /**
  * 
@@ -24,7 +26,8 @@ import de.hoffit.tipp.view.component.MainFrame;
  */
 public class MainFrameMediator extends Notifier implements IMediator, INotifier {
 
-	private final String MEDIATOR_NAME = "MainFrameMediator";
+	private final String MEDIATOR_NAME = MainFrameMediator.class
+			.getSimpleName();
 
 	private MainFrame mainFrame;
 
@@ -49,7 +52,7 @@ public class MainFrameMediator extends Notifier implements IMediator, INotifier 
 		this.mainFrame = mainFrame;
 		addListener();
 	}
-	
+
 	private void addListener() {
 		this.mainFrame.setActionListener(new ActionListener() {
 			@Override
@@ -58,14 +61,21 @@ public class MainFrameMediator extends Notifier implements IMediator, INotifier 
 			}
 		});
 	}
-	
+
 	private void handleEvent(ActionEvent e) {
 		String command = e.getActionCommand();
 
 		if (command.equals(MainFrame.SEASON_PREFERENCES)) {
-			JComboBox source = (JComboBox) e.getSource();
-			sendNotification(AppFacade.VIEW_DAY_CHANGED,
-					source.getSelectedIndex());
+			sendNotification(AppFacade.VIEW_OPEN_DIALOG, null,
+					SeasonEditDialogMediator.class.getSimpleName());
+
+			return;
+		}
+
+		if (command.equals(MainFrame.SEASON_PLAYERS)) {
+			sendNotification(AppFacade.VIEW_OPEN_DIALOG, null,
+					PlayerEditDialogMediator.class.getSimpleName());
+
 			return;
 		}
 	}

@@ -95,7 +95,6 @@ public class TipPanelMediator extends Notifier implements IMediator, INotifier {
 
 	@Override
 	public String[] listNotificationInterests() {
-		// TODO Auto-generated method stub
 		return new String[] { AppFacade.STARTUP, AppFacade.DATA_CHANGED };
 	}
 

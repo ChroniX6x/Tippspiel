@@ -16,6 +16,8 @@ import java.awt.event.ActionListener;
 
 public class MainFrame extends JFrame {
 
+	public static final String SEASON_PLAYERS = "seasonPlayers";
+
 	public static final String SEASON_PREFERENCES = "seasonPreferences";
 
 	private static final long serialVersionUID = -1826574838238810551L;
@@ -33,6 +35,7 @@ public class MainFrame extends JFrame {
 	private JMenu mnEdit;
 	private JMenu mnSeason;
 	private JMenuItem mntmPreferences;
+	private JMenuItem mntmPlayer;
 
 	// /**
 	// * Launch the application.
@@ -91,6 +94,10 @@ public class MainFrame extends JFrame {
 			this.mnSeason = new JMenu("Season");
 			this.menuBar.add(this.mnSeason);
 			{
+				this.mntmPlayer = new JMenuItem("Player");
+				this.mnSeason.add(this.mntmPlayer);
+			}
+			{
 				this.mntmPreferences = new JMenuItem("Preferences");
 				this.mnSeason.add(this.mntmPreferences);
 			}
@@ -115,5 +122,8 @@ public class MainFrame extends JFrame {
 	public void setActionListener(ActionListener a) {
 		this.mntmPreferences.addActionListener(a);
 		this.mntmPreferences.setActionCommand(SEASON_PREFERENCES);
+		
+		this.mntmPlayer.addActionListener(a);
+		this.mntmPlayer.setActionCommand(SEASON_PLAYERS);
 	}
 }

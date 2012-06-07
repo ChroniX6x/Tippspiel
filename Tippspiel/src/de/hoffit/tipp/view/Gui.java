@@ -59,8 +59,8 @@ public class Gui {
 		PlayerEditDialog playerEditDialog = new PlayerEditDialog();
 		this.viewElements.put(PlayerEditDialog.class.getSimpleName(), playerEditDialog);
 		
-		TeamEditDialog teamEditDialog = new TeamEditDialog();
-		this.viewElements.put(TeamEditDialog.class.getSimpleName(), teamEditDialog);
+		// TeamEditDialog teamEditDialog = new TeamEditDialog();
+		// this.viewElements.put(TeamEditDialog.class.getSimpleName(), teamEditDialog);
 		
 		SeasonEditDialog seasonEditDialog = new SeasonEditDialog();
 		this.viewElements.put(SeasonEditDialog.class.getSimpleName(), seasonEditDialog);
