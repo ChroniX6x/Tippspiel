@@ -52,14 +52,9 @@ public class SeasonEditDialog extends JDialog {
 	private JLabel lblGame;
 	private JPanel panel_1;
 	private JList list;
-	private JTextField textField9;
-	private JLabel lblTeamName;
-	private JButton btnAddTeam;
-	private JButton btnRemoveTeam;
-	private JButton btnEditTeam;
-	private JButton btnRemoveAll;
-	private JButton btnOk;
-	private JButton btnCancel;
+	private JList list_1;
+	private JButton btnNewButton;
+	private JButton btnNewButton_1;
 
 	/**
 	 * Launch the application.
@@ -95,45 +90,24 @@ public class SeasonEditDialog extends JDialog {
 			{
 				this.panel_1 = new JPanel();
 				this.tabbedPane.addTab("Teams", null, this.panel_1, null);
-				this.panel_1.setLayout(new MigLayout("", "[grow][50px][grow]", "[grow][10px][grow][][][20px][]"));
+				this.panel_1.setLayout(new MigLayout("", "[grow][][grow]", "[grow]"));
 				{
 					this.list = new JList();
-					this.list.setBorder(new TitledBorder(null, "Teams", TitledBorder.LEADING, TitledBorder.TOP, null, null));
-					this.panel_1.add(this.list, "cell 0 0 1 3,grow");
+					this.list.setBorder(new TitledBorder(null, "All Teams", TitledBorder.LEADING, TitledBorder.TOP, null, null));
+					this.panel_1.add(this.list, "cell 0 0,grow");
 				}
 				{
-					this.lblTeamName = new JLabel("Team Name");
-					this.panel_1.add(this.lblTeamName, "flowx,cell 2 0,aligny bottom");
+					this.btnNewButton = new JButton("<<");
+					this.panel_1.add(this.btnNewButton, "flowy,cell 1 0");
 				}
 				{
-					this.textField9 = new JTextField();
-					this.lblTeamName.setLabelFor(this.textField9);
-					this.panel_1.add(this.textField9, "cell 2 0,growx,aligny bottom");
-					this.textField9.setColumns(10);
+					this.list_1 = new JList();
+					this.list_1.setBorder(new TitledBorder(null, "Season Teams", TitledBorder.LEADING, TitledBorder.TOP, null, null));
+					this.panel_1.add(this.list_1, "cell 2 0,grow");
 				}
 				{
-					this.btnAddTeam = new JButton("Add Team");
-					this.panel_1.add(this.btnAddTeam, "cell 2 2,growx,aligny top");
-				}
-				{
-					this.btnRemoveTeam = new JButton("Remove Team");
-					this.panel_1.add(this.btnRemoveTeam, "cell 2 3,growx");
-				}
-				{
-					this.btnRemoveAll = new JButton("Remove All");
-					this.panel_1.add(this.btnRemoveAll, "cell 0 4,growx");
-				}
-				{
-					this.btnEditTeam = new JButton("Edit Team");
-					this.panel_1.add(this.btnEditTeam, "cell 2 4,growx");
-				}
-				{
-					this.btnOk = new JButton("Ok");
-					this.panel_1.add(this.btnOk, "flowx,cell 0 6 3 1,alignx center");
-				}
-				{
-					this.btnCancel = new JButton("Cancel");
-					this.panel_1.add(this.btnCancel, "cell 0 6 3 1,alignx center");
+					this.btnNewButton_1 = new JButton(">>");
+					this.panel_1.add(this.btnNewButton_1, "cell 1 0");
 				}
 			}
 			{

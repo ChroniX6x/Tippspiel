@@ -6,22 +6,16 @@ import java.awt.event.ActionListener;
 import java.util.Enumeration;
 
 import javax.swing.JComboBox;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
-import javax.swing.JScrollPane;
 import javax.swing.JTable;
-import javax.swing.table.DefaultTableModel;
+import javax.swing.JToggleButton;
+import javax.swing.SwingConstants;
 import javax.swing.table.TableColumn;
 
+import net.miginfocom.swing.MigLayout;
 import de.hoffit.tipp.view.component.model.TipPanelModel;
 import de.hoffit.tipp.view.config.MultiLineCellRenderer;
-import de.hoffit.tipp.view.config.RotatedTableCellRenderer;
-
-import net.miginfocom.swing.MigLayout;
-import javax.swing.JLabel;
-import javax.swing.SwingConstants;
-import javax.swing.JToggleButton;
-import javax.swing.UIManager;
-import javax.swing.border.BevelBorder;
 
 public class TipPanel extends JPanel {
 
